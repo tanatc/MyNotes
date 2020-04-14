@@ -15,7 +15,10 @@ git status //
 
 仓库同步
 github上新建仓库
-本地空目录下克隆仓库  ssh协议的 git clone@github.com:tanatc/first.git  也支持https协议的
+本地空目录下克隆仓库
+git init //初始化仓库
+克隆项目到本地  ssh协议的 git clone@github.com:tanatc/first.git  
+	         也支持https协议的 git clone https://github.com/tanatc/first.gits
 
 git add ** 添加文件
 git commit -m "描述说明"
