@@ -16,3 +16,7 @@ git status //
 仓库同步
 github上新建仓库
 本地空目录下克隆仓库  ssh协议的 git clone@github.com:tanatc/first.git  也支持https协议的
+
+git add ** 添加文件
+git commit -m "描述说明"
+git push  //上传
