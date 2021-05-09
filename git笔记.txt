@@ -1,0 +1,22 @@
+在现有目录中初始化仓库
+	$ git init
+	$ git add *.c $ git add LICENSE
+	$ git commit -m 'initial project version'
+克隆仓库的命令格式是 git clone [url]
+	$ git clone https://github.com/libgit2/libgit2
+如果你想在克隆远程仓库的时 候，自定义本地仓库的名字
+	$ git clone https://github.com/libgit2/libgit2 mylibgit
+检查当前文件状态
+	$ git status
+忽略文件
+	$ cat .gitignore 
+	*.[oa] 
+	*~
+跳过使用暂存区域
+	$ git status
+	$ git commit -a -m 'added new benchmarks'
+移除文件
+	$ rm PROJECTS.md 
+	$ git status
+查看提交历史
+	$ git log --pretty=format:"%h - %an, %ar : %s"
