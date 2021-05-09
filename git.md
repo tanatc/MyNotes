@@ -13,3 +13,22 @@
 # git查看分支
 ### git branch
 
+# 本地添加远程库
+## 关联前需要初始化仓库
+### git init
+## 关联一个远程库
+### git remote add origin git@github.com:tanatc/项目名.git  
+## 关联多个远程库
+### git remote add github git@github.com:tanatc/项目名.git  
+### git remote add gitee git@github.com:tanatc/项目名.git
+## 多个远程库推送
+### git push github master
+### git push gitee master
+
+# 删除关联
+### git remote rm origin
+
+# 查看远程库信息
+### git remote -v
+
+
